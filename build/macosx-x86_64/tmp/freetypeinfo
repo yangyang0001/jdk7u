@@ -1,0 +1,6 @@
+make[3]: Entering directory `/Users/yangjianwei/CLionProjects/jdk7u/jdk/make/tools/freetypecheck'
+/bin/mkdir -p /Users/yangjianwei/CLionProjects/jdk7u/build/macosx-x86_64/btbins
+rm -f /Users/yangjianwei/CLionProjects/jdk7u/build/macosx-x86_64/btbins/freetype_versioncheck
+/Library/Developer/CommandLineTools/usr/bin/llvm-gcc  -I/usr/X11R6/include -I/usr/X11R6/include/freetype2 -DREQUIRED_FREETYPE_VERSION=2.3.0 -o /Users/yangjianwei/CLionProjects/jdk7u/build/macosx-x86_64/btbins/freetype_versioncheck freetypecheck.c -L/usr/X11R6/lib -lfreetype -lz 
+/Users/yangjianwei/CLionProjects/jdk7u/build/macosx-x86_64/btbins/freetype_versioncheck
+make[3]: Leaving directory `/Users/yangjianwei/CLionProjects/jdk7u/jdk/make/tools/freetypecheck'
